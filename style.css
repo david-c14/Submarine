@@ -68,6 +68,7 @@ a {
 	padding: 10px;
 	border: 2px solid transparent;
     border-color: #3a6ea5 #182d44 #182d44 #3a6ea5;  
+	font-size: 80%;
 }
 
 .flex_item > h3 {
