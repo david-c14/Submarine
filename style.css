@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'dejavu_sansbook';
+    src: url('DejaVuSans-webfont.eot');
+    src: url('DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DejaVuSans-webfont.woff2') format('woff2'),
+         url('DejaVuSans-webfont.woff') format('woff'),
+         url('DejaVuSans-webfont.ttf') format('truetype'),
+         url('DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    border: 0px;
+    padding: 0px;
+	background-color: #294f77;
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 0px;
+}
+
+body:before {
+    top: 0;
+	border: 2px solid transparent;
+	border-top-color: #3a6ea5;
+}
+
+body:after {
+    bottom: 0;
+	border: 2px solid transparent;
+	border-bottom-color: #182d44;
+}
+
+body {
+	margin: 0px;
+	border: 2px solid transparent;
+    border-left-color: #3a6ea5;
+    border-right-color: #182d44;  
+    font-family: DejaVu Sans, dejavu_sansbook;
+    color: #ffffff;
+    padding: 5px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+	background-size: 90px 90px;
+}
+
+a {
+    color: #719fcf;
+}
+
+.flex_cont {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.flex_item {
+	margin: 20px;
+	width: 300px;
+	padding: 10px;
+	border: 2px solid transparent;
+    border-color: #3a6ea5 #182d44 #182d44 #3a6ea5;  
+}
+
+.flex_item > h3 {
+	height: 40px;
+}
+
+.flex_item > a {
+	line-height: 1.5;
+}
