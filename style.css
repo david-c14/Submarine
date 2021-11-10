@@ -91,3 +91,8 @@ a {
 .flex_item li {
 	padding-bottom: 1em;
 }
+
+.footer {
+	color: #719fcf;
+	font-size: 60%;
+}
