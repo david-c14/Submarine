@@ -71,8 +71,13 @@ a {
 	font-size: 80%;
 }
 
+.flex_item > h2 {
+	font-weight: inherit;
+}
+
 .flex_item > h3 {
 	height: 40px;
+	font-weight: inherit;
 }
 
 .flex_item > a {
