@@ -87,3 +87,7 @@ a {
 .flex_item ul {
 	list-style-type: none;
 }
+
+.flex_item li {
+	padding-bottom: 1em;
+}
