@@ -1,8 +1,0 @@
-#Jekyll configuration
-name: Submarine plugins for VCV Rack
-markdown: GFM
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
