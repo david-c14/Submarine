@@ -1,0 +1,82 @@
+<html>
+<head>
+  <title>Submarine Free Manual</title>
+  <link rel="stylesheet" href="manual.css" />
+</head>
+<body>
+  <a href="index.html">Index</a>
+<h1>Digital Operators</h1>
+
+<h3><a href="DS.html">Part of the Digital Suite</a></h3>
+
+<h4>DO-105 5 Gate Digital Operators</h4>
+
+<p><img src="DO-105.png" alt="View of the Digital Operators" title="Digital Operators" /></p>
+
+<h4>DO-110 10 Gate Digital Operators</h4>
+
+<p><img src="DO-110.png" alt="View of the Digital Operators" title="Digital Operators" /></p>
+
+<h4>DO-115 15 Gate Digital Operators</h4>
+
+<p><img src="DO-115.png" alt="View of the Digital Operators" title="Digital Operators" /></p>
+
+<h4>DO-120 20 Gate Digital Operators</h4>
+
+<p><img src="DO-120.png" alt="View of the Digital Operators" title="Digital Operators" /></p>
+
+<h2>Basic Operation</h2>
+
+<p>The DO-1xx providers 4 polyphonic inputs and 4 polyphonic outputs. Between the two you can route through up to 20 logic gates.</p>
+
+<h2>Choosing Gates</h2>
+
+<p>The scrollable display in the centre of the device presents between 5 and 20 selectable gates, according to the model of the device. 
+Each gate can be swapped out by clicking on the gate and dragging the mouse up/down as you would a knob.</p>
+
+<p><a href="gates.html">Details of the available gates</a></p>
+
+<h2>Routing</h2>
+
+<p>Gates have between 1 and 4 inputs. To the left of each gate there are 4 pads. By clicking on the pad and dragging the mouse up/down, 
+you can control which pad this input is routed from. At the top of the device are 4 pads representing the device inputs, and also a black pad
+which always present a logical false, and a white pad which presents a logical truth.</p>
+
+<p>Below the scrolling section of the display, there are 4 further pads which connect to the device outputs. 
+You can drag these in the same way to control where these outputs are routed from.</p>
+
+<p>You cannot route from an output of a gate to the inputs of a gate earlier in the chain. Feedback loops are not supported directly within 
+the routing of the device.  But you can connect a cable directly between the device output and the device input if you wish to incorporate feedback.</p>
+
+<h2>Truth Tables</h2>
+
+<p>If you right click on a gate, the menu will offer a truth table which can help you understand the connections to and from the gate.</p>
+
+<h2>Signal Range</h2>
+
+<p>The voltage range of the digital gates can be configured from the context menu. The device will output at the full range of the configured settings. The inputs will measure a logical high signal anywhere above the midpoint of the configured range.</p>
+
+<h2>Normalling</h2>
+
+<p>An input not connected will generate 0V on all polyphonic channels. The meaning of 0V will depend on the digital signal range as described above.</p>
+
+<h2>Polyphony</h2>
+
+<p>All 4 outputs will have a number of channels which is the maximum number of channels presented at the inputs. 
+An input with a single channel will present that voltage across all the channels being processed. 
+An input with more than one channel, but fewer than the number of channels being processed will present 0V on the excess channels.</p>
+
+<h2>Shuffle</h2>
+
+<p>Empty (not connected) gate slots can be deleted using the right-click menu on the gate. This will cause any gates below that to be shuffled up the device, including all the related connections.</p>
+
+<p>Gates which are not empty can be shuffled down if you need to make additional space to insert a gate. All related connections will be automatically adjusted at the same time.</p>
+
+<h2>Copying to another device</h2>
+
+<p>The right click menu on the device as a whole (not on an individual gate) offers copy and paste options which will allow you to copy and paste even between DO-1xx devices of different sizes.</p>
+
+<p>When copying to a smaller device, empty (not connected) gate slots may be deleted to help the circuit fit into the destination device, all connections will be correctly adjusted to suit. Note that deleting empty slots will only happen if it is necessary.
+The circuit in the source device will not be affected.</p>
+</body>
+</html>
