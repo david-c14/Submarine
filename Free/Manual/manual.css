@@ -14,3 +14,11 @@ body {
 	font-family: DejaVu Sans, dejavu_sansbook;
 }
 
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+}
